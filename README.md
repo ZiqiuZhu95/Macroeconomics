@@ -4,11 +4,13 @@ A series of assignments analyzing real GDP seasonally adjusted data from 1961Q1 
 
 While the course is taught in Stata, all the code with the exception for that related to the DSGE models, are performed in R due to ease of familiariy in data wrangling and better presentation. Notably, dplyr and ggplot2 libraries covered a majority of the code used. Stata was used to solve DSGE models as R had a comparabily weaker library.
 
+Note that all data was extracted from various tables provided by Statistics Canada. Furthermore, the Stata code is not provided in the case that the problem sets will be reused in a future course.
+
 ## Assignment Content
 
 ### Assignment 1
 
-The main focus of this assignment was to gain a deeper understanding of the national accounts' (Real GDP, consumption, government expenditure, investment, imports and exports) historical data, as well as presenting tables and figures in a professional manner. As such, many of the questions involved exploratory data analysis using a highpass filter. All data was extracted from Statistics Canada.
+The main focus of this assignment was to gain a deeper understanding of the national accounts' (Real GDP, consumption, government expenditure, investment, imports and exports) historical data, and served as practice for presenting tables and figures in a professional manner. As such, many of the questions involved exploratory data analysis using a highpass filter. 
 
 An interesting part of the assignment was in part 4, where we were tasked to make an interesting observation using data extracted from the Bank of Canada. Particularly, I found a high correlation of 0.9 between the velocity of M1+ and Government of Canada's marketable bond yields and provided an explationation based on monetarism’s quantity theory of money. I also made an animated graph using the library gganimate for which the code and output can be found [here.](http://rpubs.com/ZiqZhu/EC640Q4)
 
@@ -19,4 +21,4 @@ This assignment was a bit lax, as it was due right before the midterm. We contin
 
 ## Assignment 3
 
-The final assignment tasked us to solve for solow residuals, focusing on decentralized and RBC models with different utility functions. VARS was also taught in the course, however I did not include that part in the publishedd assignment.
+The final assignment tasked us to solve for solow residuals, as well as decentralized and RBC DSGE models with different utility functions. Vector autoregression (VARS) was also taught in the course, but I did not publish the results on github.
