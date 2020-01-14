@@ -1,11 +1,10 @@
 # Macroeconomic Analysis
 
-A series of assignments (see .pdf files) analyzing real GDP seasonally adjusted data from 1961Q1 - 2019Q2 using R, Stata and the latex markup language. Content covered includes: explanatory data analysis, hypothesis testing and solving dynamic stochastic general equilibrium (DSGE) models.
+A series of assignments analyzing real GDP seasonally adjusted data from 1961Q1 - 2019Q2 using R, Stata and the latex markup language. Content covered includes: explanatory data analysis, hypothesis testing and solving dynamic stochastic general equilibrium (DSGE) models.
 
 While the course is taught in Stata, all the code with the exception for that related to the DSGE models, are performed in R due to ease of familiariy in data wrangling and better presentation. Notably, dplyr and ggplot2 libraries covered a majority of the code used. Stata was used to solve DSGE models as R had a comparabily weaker library.
 
-All data was extracted from various tables provided by Statistics Canada. Furthermore, the Stata code is not provided in the case that the problem sets will be reused in a future course.
-
+Note that all data was extracted from various tables provided by Statistics Canada. Furthermore, the Stata code is not provided in the case that the problem sets will be reused in a future course.
 
 ## Assignment Content
 
